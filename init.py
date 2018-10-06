@@ -20,5 +20,5 @@ clock = pygame.time.Clock()
 
 # OBJECT
 all_sprites = pygame.sprite.Group()
-home = Player()
+home = Player(homesprite)
 all_sprites.add(home)

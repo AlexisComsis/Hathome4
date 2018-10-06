@@ -18,8 +18,7 @@ while run:
     if keys[pygame.QUIT]:
         run = False
 
-    home.update(window, keys, mouse, click)
-
     pygame.Surface.fill(window, (0, 0, 0))
+    all_sprites.update(window, keys, mouse, click)
 
     pygame.display.update()
